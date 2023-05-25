@@ -1,0 +1,17 @@
+.green{
+    background-color: rgb(31, 248, 31);
+    font-size: 40px;
+}
+@media (max-width: 740px) and (min-width: 500px){
+    .green{
+        background-color: red;
+        font-size: 30px;
+    }
+}
+@media (min-width: 300px) and (max-width: 500px){
+    .green{
+        background-color: yellow;
+        font-size: 25px;
+            color: white;
+        }
+}
